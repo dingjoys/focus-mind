@@ -175,7 +175,7 @@ Anonymized templates (with brand identity stripped) from successful campaigns en
 
 ---
 
-### 4.6 Hightouch-Style Data Sync (Enterprise Tier)
+### 4.6 Data Sync (Enterprise Tier)
 
 Modeled on Hightouch's core capability — **syncing user data from data warehouses to downstream tools** — the LaunchMinds Enterprise tier supports:
 
