@@ -346,7 +346,7 @@ This makes LaunchMinds part of a brand's marketing data infrastructure rather th
 
 ### 8.2 AI Capability Stack
 
-- **LLM**: Claude API (primary plan generation) + GPT-4o (fallback)
+- **LLM**: Minds API (primary plan generation) + GPT-4o (fallback)
 - **RAG (Retrieval-Augmented Generation)**: Brand document embeddings, with vector retrieval ensuring plans stay consistent with brand assets
 - **Fine-tuning**: Continuously fine-tuned on accumulated campaign performance data to improve planning quality
 - **Agent framework**: In-house multi-agent orchestration supporting the full plan → review → deploy → monitor pipeline
