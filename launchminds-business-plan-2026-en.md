@@ -446,25 +446,11 @@ Based on an average ARPU of $1,500, roughly **60 paying customers** are needed t
 
 ### Current Round
 
-**Target Amount**: $2,000,000 (Pre-Seed)
-
-**Use of Funds**:
-
-| Use | Share | Amount |
-|------|------|------|
-| Engineering & AI R&D (18 months) | 50% | $1,000,000 |
-| Customer acquisition & brand building | 25% | $500,000 |
-| Operations & infrastructure | 15% | $300,000 |
-| Reserve | 10% | $200,000 |
-
-**Target Investors**:
-- Web3-native VCs (who understand the value of the Galxe / Zealy category)
-- AI × martech VCs
-- Strategic investors: industry CVCs with access to large brand customers
+**Target Amount**: $1,000,000 (Pre-Seed)
 
 **Expected Milestones (18 months)**:
-- 200 paying customers
-- ARR $3,600,000
+- 100 paying customers
+- ARR $8,00,000
 - Series A readiness
 
 ---
