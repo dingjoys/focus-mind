@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the LaunchMinds 'Built on Minds, From Day One' presentation (PPTX)."""
+"""Build the LaunchMinds 'From Assistant to Autonomous' presentation (PPTX)."""
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.dml.color import RGBColor
@@ -164,7 +164,7 @@ set_notes(s, "Good [morning/afternoon] — today I want to walk you through how 
 # Slide 2 — The Problem
 # ---------------------------------------------------------------------------
 s = new_slide()
-add_kicker(s, "The Problem", "01 / 08")
+add_kicker(s, "The Problem", "01 / 07")
 add_text(s, Inches(0.55), Inches(1.05), Inches(11.5), Inches(1.3),
          "Marketing today is stitched\ntogether by hand", size=36, color=TEXT_MAIN, bold=True, line_spacing=1.1)
 add_bullets(s, Inches(0.55), Inches(2.85), Inches(11.5), Inches(3.2), [
@@ -184,7 +184,7 @@ set_notes(s, "Brand marketing today is stitched together by hand — one tool fo
 # Slide 3 — Positioning: Harness + Minds
 # ---------------------------------------------------------------------------
 s = new_slide()
-add_kicker(s, "Positioning", "02 / 08")
+add_kicker(s, "Positioning", "02 / 07")
 add_text(s, Inches(0.55), Inches(1.0), Inches(11.5), Inches(0.7),
          "LaunchMinds = Harness + Minds", size=34, color=TEXT_MAIN, bold=True)
 
@@ -229,7 +229,7 @@ set_notes(s, "[read core line]. Two things are doing the work here, and they're 
 # Slide 4 — How Agents Evolve (framework intro)
 # ---------------------------------------------------------------------------
 s = new_slide()
-add_kicker(s, "The Framework", "03 / 08")
+add_kicker(s, "The Framework", "03 / 07")
 add_text(s, Inches(0.55), Inches(1.05), Inches(11.5), Inches(0.7),
          "How agents evolve", size=36, color=TEXT_MAIN, bold=True)
 add_text(s, Inches(0.55), Inches(1.85), Inches(11.8), Inches(0.9),
@@ -306,7 +306,7 @@ def stage_slide(kicker, num_text, stage_num, stage_name, status_text, status_col
 
 # Slide 5 — Stage 1
 stage_slide(
-    "The Evolution · Stage 1", "04 / 08", 1, "Assisted Completion", "DONE", TEXT_FAINT,
+    "The Evolution · Stage 1", "04 / 07", 1, "Assisted Completion", "DONE", TEXT_FAINT,
     "Inline suggestions, not action",
     [
         "Suggestions only — human reviews every one",
@@ -327,7 +327,7 @@ stage_slide(
 
 # Slide 6 — Stage 2
 stage_slide(
-    "The Evolution · Stage 2", "05 / 08", 2, "Single-Session Execution", "TODAY", ACCENT,
+    "The Evolution · Stage 2", "05 / 07", 2, "Single-Session Execution", "TODAY", ACCENT,
     "Full task, one sitting, human watching",
     [
         "One session completes an entire task",
@@ -337,65 +337,43 @@ stage_slide(
     [
         "Registration + planning + deployment — no handoffs between tools",
         "Runs on our internal skill system: structured capabilities we hand to Minds so it can act, not just suggest",
-        "Minds doing real autonomous work within a session — live in production today",
+        "Minds doing real autonomous work within a session",
     ],
     "The first stage where Minds truly acts, not just assists.",
-    "Stage two is what's running in production right now. One session, one Mind, handling registration, "
+    "Stage two is what's live right now. One session, one Mind, handling registration, "
     "planning, and deployment end to end — no handoffs between tools. It runs through our internal skill "
     "system, which is essentially a set of structured capabilities we hand to Minds so it can act, not just "
-    "suggest. This is the first stage where Minds does real work autonomously within a session, and it's in "
-    "daily use today.",
+    "suggest. This is the first stage where Minds does real work autonomously within a session.",
 )
 
 # Slide 7 — Stage 3
 stage_slide(
-    "The Evolution · Stage 3", "06 / 08", 3, "Agent Mode", "NEXT MILESTONE", ACCENT2,
+    "The Evolution · Stage 3", "06 / 07", 3, "Agent Mode", "NEXT MILESTONE", ACCENT2,
     "Long-running, autonomous, self-checking",
     [
         "Not one session — a persistent, ongoing system",
         "Checks and corrects its own work over time",
     ],
-    "A workspace of multiple Minds instances",
+    "A workspace of coordinating Minds",
     [
-        "Per-project workspace: one Mind plans, one executes, one analyzes, one adjusts",
-        "Not roles loosely called “Minds” — literal Minds models, coordinating in a loop",
+        "Per-project workspace: multiple Minds instances coordinating",
+        "No fixed pipeline of roles — the group's shape adapts to what the campaign needs",
         "Where we push toward real multi-agent coordination on your platform",
     ],
     "The clearest place you'll see what your platform makes possible.",
     "Stage three is our next milestone, and it's the part I think matters most for this room. We're building "
-    "a per-project workspace where multiple Minds instances run side by side — one planning, one executing, "
-    "one analyzing results, one adjusting the plan based on what it sees — coordinating with each other in a "
-    "continuous loop. These aren't roles we're loosely calling 'Minds.' They're literal Minds models, each "
-    "doing a distinct job, talking to each other. This is the clearest place you'll see what your platform "
-    "makes possible when we push it toward real multi-agent coordination.",
+    "a per-project workspace where multiple Minds instances coordinate with each other — thinking through "
+    "strategy, executing it, reading the results, and adjusting together. We're not locking that into a fixed "
+    "pipeline of roles; the shape of that group adapts to what each campaign actually needs. This is the "
+    "clearest place you'll see what your platform makes possible when we push it toward real multi-agent "
+    "coordination.",
 )
 
 # ---------------------------------------------------------------------------
-# Slide 8 — Sapien collaboration
+# Slide 8 — Closing / Vision
 # ---------------------------------------------------------------------------
 s = new_slide()
-add_kicker(s, "Exploring", "07 / 08")
-add_text(s, Inches(0.55), Inches(1.05), Inches(11.5), Inches(0.7),
-         "One open thread: Sapien", size=36, color=TEXT_MAIN, bold=True)
-add_badge(s, Inches(0.55), Inches(1.95), "EXPLORING · EARLY STAGE", WARN)
-add_bullets(s, Inches(0.55), Inches(2.55), Inches(11.5), Inches(2.6), [
-    "Early conversations, not finalized",
-    "Potential collaboration on the “analyze” step of the Stage 3 loop",
-    "Evaluating whether their approach complements what Minds already gives us",
-    "Full transparency: exploration, not a commitment",
-], size=19, color=TEXT_MAIN, space_after=18)
-add_footer(s)
-set_notes(s, "One open thread, for full transparency: we're in early conversations with Sapien about the "
-             "analyze step in that stage-three loop — whether their approach complements what Minds already "
-             "gives us. To be clear, this is exploration, not a commitment. We want to be upfront about what's "
-             "decided and what's still being evaluated, because that honesty is part of how we want to build "
-             "this relationship with you.")
-
-# ---------------------------------------------------------------------------
-# Slide 9 — Closing / Vision
-# ---------------------------------------------------------------------------
-s = new_slide()
-add_kicker(s, "Where This Goes", "08 / 08")
+add_kicker(s, "Where This Goes", "07 / 07")
 add_text(s, Inches(0.55), Inches(1.0), Inches(11.5), Inches(0.7),
          "Built on Minds — with Minds' community", size=32, color=TEXT_MAIN, bold=True)
 
@@ -428,7 +406,7 @@ add_text(s, Inches(0.55), Inches(6.15), Inches(11.5), Inches(0.6),
 add_text(s, Inches(0.55), Inches(6.72), Inches(6), Inches(0.4),
          "Thank you.", size=16, color=TEXT_DIM, italic=True)
 add_footer(s, "LaunchMinds · 2026")
-set_notes(s, "So: two stages shipped and running, one stage actively in motion, built on Minds from day one — "
+set_notes(s, "So: two stages built and live today, one stage actively in motion, built on Minds from day one — "
              "not as an integration bolted on after the fact, but as the foundation. We're showing you this "
              "because we think it's a good answer to the question every platform has to answer eventually: "
              "what gets built on top of us? We'd like to keep building that answer together — with your "

@@ -81,10 +81,10 @@ Subtitle: *Built on Minds, from day one*
 - In coding: full task, one sitting, human watching
 - One session, one Mind: registration + planning + deployment, no handoffs
 - Runs on our internal skill system — structured capabilities handed to Minds so it can act, not just suggest
-- Live in production today
+- Minds doing real autonomous work within a session
 
 **Narration:**
-> Stage two is what's running in production right now. One session, one Mind, handling registration, planning, and deployment end to end — no handoffs between tools. It runs through our internal skill system, which is essentially a set of structured capabilities we hand to Minds so it can act, not just suggest. This is the first stage where Minds does real work autonomously within a session, and it's in daily use today.
+> Stage two is what's live right now. One session, one Mind, handling registration, planning, and deployment end to end — no handoffs between tools. It runs through our internal skill system, which is essentially a set of structured capabilities we hand to Minds so it can act, not just suggest. This is the first stage where Minds does real work autonomously within a session.
 
 ---
 
@@ -92,41 +92,26 @@ Subtitle: *Built on Minds, from day one*
 
 **On slide:**
 - In coding: long-running, autonomous, self-checking
-- Per-project workspace: one Mind plans, one executes, one analyzes, one adjusts
-- Not roles loosely called "Minds" — literal Minds models, coordinating in a loop
+- Per-project workspace: multiple Minds instances coordinating
+- No fixed pipeline of roles — the group's shape adapts to what the campaign needs
 - Where we push toward real multi-agent coordination on your platform
 
 **Narration:**
-> Stage three is our next milestone, and it's the part I think matters most for this room. We're building a per-project workspace where multiple Minds instances run side by side — one planning, one executing, one analyzing results, one adjusting the plan based on what it sees — coordinating with each other in a continuous loop. These aren't roles we're loosely calling "Minds." They're literal Minds models, each doing a distinct job, talking to each other. This is the clearest place you'll see what your platform makes possible when we push it toward real multi-agent coordination.
-
-> Confirmed: multi-agent (multi-Minds) collaboration of this kind is a feasible pattern on Minds today, so this claim stands as stated.
+> Stage three is our next milestone, and it's the part I think matters most for this room. We're building a per-project workspace where multiple Minds instances coordinate with each other — thinking through strategy, executing it, reading the results, and adjusting together. We're not locking that into a fixed pipeline of roles; the shape of that group adapts to what each campaign actually needs. This is the clearest place you'll see what your platform makes possible when we push it toward real multi-agent coordination.
 
 ---
 
-## Slide 8 — One Open Thread: Sapien
+## Slide 8 — Built on Minds, With Minds' Community
 
 **On slide:**
-- Early conversations, not finalized
-- Potential collaboration on the "analyze" step of the Stage 3 loop
-- Evaluating whether their approach complements what Minds already gives us
-- Full transparency: exploration, not a commitment
-
-**Narration:**
-> One open thread, for full transparency: we're in early conversations with Sapien about the analyze step in that stage-three loop — whether their approach complements what Minds already gives us. To be clear, this is exploration, not a commitment. We want to be upfront about what's decided and what's still being evaluated, because that honesty is part of how we want to build this relationship with you.
-
----
-
-## Slide 9 — Built on Minds, With Minds' Community
-
-**On slide:**
-- Stage 1 & 2: shipped, in daily use
+- Stage 1 & 2: built, live today
 - Stage 3: next milestone, in motion
 - Not an integration bolted on after the fact — built on Minds from day one
 - "What gets built on top of a platform is the best answer a platform can have."
 
 **Narration:**
-> So: two stages shipped and running, one stage actively in motion, built on Minds from day one — not as an integration bolted on after the fact, but as the foundation. We're showing you this because we think it's a good answer to the question every platform has to answer eventually: what gets built on top of us? We'd like to keep building that answer together — with your platform, and with your community. Thanks for the time.
+> So: two stages built and live today, one stage actively in motion, built on Minds from day one — not as an integration bolted on after the fact, but as the foundation. We're showing you this because we think it's a good answer to the question every platform has to answer eventually: what gets built on top of us? We'd like to keep building that answer together — with your platform, and with your community. Thanks for the time.
 
 ---
 
-*Estimated run time: ~5 minutes at a natural speaking pace (~150 wpm). Revised 2026-08-13 to foreground Minds as the underlying model platform (analogous to Claude/GPT for other companies) and reframe the talk for an audience of Minds and Minds-community developers, per user direction. Title kept as "From Assistant to Autonomous" per user preference. Grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) (§8.2 confirms Minds as the primary LLM) and the team's actual build progress (Stages 1–2 shipped, Stage 3 in progress).*
+*Estimated run time: ~5 minutes at a natural speaking pace (~150 wpm). Revised 2026-08-13 to foreground Minds as the underlying model platform (analogous to Claude/GPT for other companies) and reframe the talk for an audience of Minds and Minds-community developers, per user direction. Title kept as "From Assistant to Autonomous" per user preference. Stage 3 no longer prescribes a fixed plan/execute/analyze/adjust role split — the multi-Minds group's shape is described as adaptive, not fixed. Sapien slide removed per user request. Grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) (§8.2 confirms Minds as the primary LLM) and the team's actual build progress (Stages 1–2 built and live, Stage 3 in progress).*
