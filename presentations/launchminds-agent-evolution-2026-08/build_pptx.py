@@ -12,7 +12,6 @@ BG_PANEL = RGBColor(0x14, 0x1B, 0x2E)
 BG_PANEL2 = RGBColor(0x18, 0x21, 0x38)
 ACCENT = RGBColor(0x7C, 0x9C, 0xFF)      # indigo
 ACCENT2 = RGBColor(0x5E, 0xE6, 0xC0)     # mint
-WARN = RGBColor(0xFF, 0xB4, 0x6C)        # amber (for "next" status)
 TEXT_MAIN = RGBColor(0xF2, 0xF4, 0xF8)
 TEXT_DIM = RGBColor(0xA6, 0xAF, 0xC2)
 TEXT_FAINT = RGBColor(0x6B, 0x74, 0x8C)
@@ -153,11 +152,10 @@ add_bullets(s, Inches(0.9), Inches(5.1), Inches(10.8), Inches(1.8), [
     "A partnership story, not just a product demo",
 ], size=15, color=TEXT_DIM, space_after=8)
 add_footer(s, "LaunchMinds · 2026")
-set_notes(s, "Good [morning/afternoon] — today I want to walk you through how LaunchMinds is evolving, from "
-             "an assistant to something increasingly autonomous, and what that's been like to build on Minds. "
-             "Our name isn't an accident: Launch, plus Minds. We picked it because Minds is the foundation "
-             "everything we do stands on. What you'll see today is proof of what that foundation makes "
-             "possible, and where we want to take it next, together.")
+set_notes(s, "Good afternoon — today I want to walk you through how LaunchMinds is evolving, from an "
+             "assistant to something increasingly autonomous. Our name: Launch, plus Minds. We picked it "
+             "because Minds is the foundation everything we do stands on. What you'll see today is proof of "
+             "what Minds makes possible, and where we want to take it next, together.")
 
 # ---------------------------------------------------------------------------
 # Slide 2 — The Problem

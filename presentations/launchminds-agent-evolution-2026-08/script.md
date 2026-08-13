@@ -7,7 +7,7 @@ Companion file to [`launchminds-deck.pptx`](./launchminds-deck.pptx). Full narra
 Deck title: **LaunchMinds: From Assistant to Autonomous**
 Subtitle: *Built on Minds, from day one*
 
-> **Note on terminology:** "Minds" is our underlying AI/LLM foundation model provider — it plays the same role for LaunchMinds that Claude or GPT-4 plays for other companies (see `launchminds-business-plan-2026-en.md`, §8.2: "LLM: Minds API"). It is a proper noun throughout this deck, not a generic term. **Harness** is a separate, complementary layer: our own proprietary context/memory system that sits on top of Minds. The deck deliberately keeps these two distinct: Harness = context layer, Minds = model layer.
+> **Note on terminology:** "Minds" is our underlying AI/LLM foundation model provider (see `launchminds-business-plan-2026-en.md`, §8.2: "LLM: Minds API"). It is a proper noun throughout this deck, not a generic term. **Harness** is a separate, complementary layer: our own proprietary context/memory system that sits on top of Minds. The deck deliberately keeps these two distinct: Harness = context layer, Minds = model layer.
 
 ---
 
@@ -19,7 +19,7 @@ Subtitle: *Built on Minds, from day one*
 - A partnership story, not just a product demo
 
 **Narration:**
-> Good [morning/afternoon] — today I want to walk you through how LaunchMinds is evolving, from an assistant to something increasingly autonomous, and what that's been like to build on Minds. Our name isn't an accident: Launch, plus Minds. We picked it because Minds is the foundation everything we do stands on. What you'll see today is proof of what that foundation makes possible, and where we want to take it next, together.
+> Good afternoon — today I want to walk you through how LaunchMinds is evolving, from an assistant to something increasingly autonomous. Our name: Launch, plus Minds. We picked it because Minds is the foundation everything we do stands on. What you'll see today is proof of what Minds makes possible, and where we want to take it next, together.
 
 ---
 
@@ -114,4 +114,4 @@ Subtitle: *Built on Minds, from day one*
 
 ---
 
-*Estimated run time: ~5 minutes at a natural speaking pace (~150 wpm). Revised 2026-08-13 to foreground Minds as the underlying model platform (analogous to Claude/GPT for other companies) and reframe the talk for an audience of Minds and Minds-community developers, per user direction. Title kept as "From Assistant to Autonomous" per user preference. Stage 3 no longer prescribes a fixed plan/execute/analyze/adjust role split — the multi-Minds group's shape is described as adaptive, not fixed. Sapien slide removed per user request. Grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) (§8.2 confirms Minds as the primary LLM) and the team's actual build progress (Stages 1–2 built and live, Stage 3 in progress).*
+*Estimated run time: ~4.5 minutes at a natural speaking pace (~150 wpm) — 8 slides, 7 numbered content slides. Revised 2026-08-13 to foreground Minds as the underlying model platform and reframe the talk for an audience of Minds and Minds-community developers, per user direction. Title kept as "From Assistant to Autonomous" per user preference. Stage 3 no longer prescribes a fixed plan/execute/analyze/adjust role split — the multi-Minds group's shape is described as adaptive, not fixed. Grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) (§8.2 confirms Minds as the primary LLM) and the team's actual build progress (Stages 1–2 built and live, Stage 3 in progress).*
