@@ -178,49 +178,61 @@ set_notes(s, "Brand marketing today is stitched together by hand — one tool fo
              "at the core, not automation scripts with an AI label on them.")
 
 # ---------------------------------------------------------------------------
-# Slide 3 — Positioning: Harness + Minds
+# Slide 3 — Positioning: What Minds gives us, what Harness adds
 # ---------------------------------------------------------------------------
 s = new_slide()
 add_kicker(s, "Positioning", "02 / 07")
 add_text(s, Inches(0.55), Inches(1.0), Inches(11.5), Inches(0.7),
-         "LaunchMinds = Harness + Minds", size=34, color=TEXT_MAIN, bold=True)
+         "What Minds gives us, what Harness adds", size=32, color=TEXT_MAIN, bold=True)
 
-# two-part layer diagram
-layer_y = Inches(1.85)
-layer_h = Inches(1.0)
-harness_box = add_rect(s, Inches(0.55), layer_y, Inches(5.4), layer_h, BG_PANEL, radius=0.08)
-add_text(s, Inches(0.9), layer_y + Inches(0.16), Inches(4.7), Inches(0.35),
-         "HARNESS", size=15, color=ACCENT2, bold=True)
-add_text(s, Inches(0.9), layer_y + Inches(0.52), Inches(4.7), Inches(0.4),
-         "Context layer — proprietary enterprise memory", size=13.5, color=TEXT_DIM)
-add_text(s, Inches(6.15), layer_y + Inches(0.28), Inches(0.5), Inches(0.5),
-         "+", size=30, color=TEXT_FAINT, align=PP_ALIGN.CENTER)
-minds_box = add_rect(s, Inches(6.85), layer_y, Inches(5.4), layer_h, BG_PANEL2, radius=0.08)
-add_rect(s, Inches(6.85), layer_y, Inches(0.08), layer_h, ACCENT)
-add_text(s, Inches(7.2), layer_y + Inches(0.16), Inches(4.7), Inches(0.35),
-         "MINDS", size=15, color=ACCENT, bold=True)
-add_text(s, Inches(7.2), layer_y + Inches(0.52), Inches(4.7), Inches(0.4),
-         "Model layer — the reasoning engine underneath", size=13.5, color=TEXT_DIM)
+# Minds: the larger, native layer
+minds_y = Inches(1.8)
+minds_h = Inches(1.05)
+minds_box = add_rect(s, Inches(0.55), minds_y, Inches(12.2), minds_h, BG_PANEL2, radius=0.08)
+add_rect(s, Inches(0.55), minds_y, Inches(0.08), minds_h, ACCENT)
+add_text(s, Inches(0.9), minds_y + Inches(0.15), Inches(11.3), Inches(0.35),
+         "MINDS — what it already does natively", size=15, color=ACCENT, bold=True)
+add_text(s, Inches(0.9), minds_y + Inches(0.55), Inches(11.3), Inches(0.4),
+         "Reasoning  ·  its own context & memory  ·  market, campaign & performance analysis",
+         size=14.5, color=TEXT_DIM)
 
-quote_box = add_rect(s, Inches(0.55), Inches(3.2), Inches(12.2), Inches(2.05), BG_PANEL, radius=0.06)
-add_rect(s, Inches(0.55), Inches(3.2), Inches(0.09), Inches(2.05), ACCENT2)
-add_text(s, Inches(1.0), Inches(3.4), Inches(11.3), Inches(1.7),
+add_text(s, Inches(0.55), minds_y + minds_h + Inches(0.02), Inches(0.6), Inches(0.35),
+         "+", size=24, color=TEXT_FAINT, align=PP_ALIGN.CENTER)
+
+# Harness: the narrower, additive layer
+harness_y = minds_y + minds_h + Inches(0.42)
+harness_h = Inches(0.95)
+harness_box = add_rect(s, Inches(1.75), harness_y, Inches(9.6), harness_h, BG_PANEL, radius=0.08)
+add_rect(s, Inches(1.75), harness_y, Inches(0.08), harness_h, ACCENT2)
+add_text(s, Inches(2.1), harness_y + Inches(0.14), Inches(8.9), Inches(0.35),
+         "HARNESS — the one layer that's ours", size=15, color=ACCENT2, bold=True)
+add_text(s, Inches(2.1), harness_y + Inches(0.52), Inches(8.9), Inches(0.4),
+         "Enterprise materials  ·  brand working habits  ·  team preferences",
+         size=14.5, color=TEXT_DIM)
+
+quote_y = harness_y + harness_h + Inches(0.25)
+quote_box = add_rect(s, Inches(0.55), quote_y, Inches(12.2), Inches(1.55), BG_PANEL, radius=0.06)
+add_rect(s, Inches(0.55), quote_y, Inches(0.09), Inches(1.55), ACCENT2)
+add_text(s, Inches(1.0), quote_y + Inches(0.15), Inches(11.3), Inches(1.3),
          "“LaunchMinds is an AI-native, end-to-end brand marketing platform that "
          "leverages Harness to build proprietary enterprise contexts, automating the "
          "entire lifecycle from campaign design and multi-platform deployment to "
          "resource orchestration.”",
-         size=18.5, color=TEXT_MAIN, italic=True, line_spacing=1.28)
-add_text(s, Inches(0.55), Inches(5.55), Inches(11.8), Inches(0.9),
-         "Harness without Minds is just a database. Minds without Harness is generic.\n"
-         "Together, that's Minds-driven — not just Minds-adjacent.",
-         size=16.5, color=ACCENT2, italic=True, line_spacing=1.3)
+         size=15.5, color=TEXT_MAIN, italic=True, line_spacing=1.25)
+add_text(s, Inches(0.55), quote_y + Inches(1.7), Inches(11.8), Inches(0.6),
+         "Not two stacked layers — Minds doing what it already does natively,\nHarness adding the one layer that's ours.",
+         size=14.5, color=ACCENT2, italic=True, line_spacing=1.25)
 add_footer(s)
-set_notes(s, "[read core line]. Two things are doing the work here, and they're worth separating for this room. "
-             "Harness is our layer — the proprietary context and memory that make a plan actually understand a "
-             "specific brand, a specific market, a specific history of what's worked before. Minds is what "
-             "Harness runs on — the model layer, the actual reasoning underneath every plan we generate. "
-             "Harness without Minds is just a database. Minds without Harness is generic. Together, that's what "
-             "makes this Minds-driven, not just Minds-adjacent.")
+set_notes(s, "[read core line]. It's worth being precise about what that means, especially for this room — "
+             "because we didn't build Harness to replace anything Minds already does well. Minds itself already "
+             "brings real reasoning and its own context and memory capability, and it natively handles the "
+             "market, campaign, and performance analysis that powers a lot of what LaunchMinds does. We didn't "
+             "rebuild any of that. What Harness adds is narrower and more specific: it's where we store the "
+             "things that are genuinely ours — a brand's enterprise materials, its working habits, a team's "
+             "preferences and tendencies. That's memory Minds has no way to have on its own, because it's ours, "
+             "not generic. So this isn't two clean stacked layers, reasoning here, memory there — it's Minds "
+             "doing what Minds already does natively, and Harness adding exactly the one layer that's "
+             "LaunchMinds-specific on top.")
 
 # ---------------------------------------------------------------------------
 # Slide 4 — How Agents Evolve (framework intro)
@@ -353,17 +365,22 @@ stage_slide(
     ],
     "A workspace of coordinating Minds",
     [
-        "Per-project workspace: multiple Minds instances coordinating",
-        "No fixed pipeline of roles — the group's shape adapts to what the campaign needs",
-        "Where we push toward real multi-agent coordination on your platform",
+        "Multiple Minds instances working together — plan, execute, analyze, adjust",
+        "No fixed pipeline — the group's shape adapts to the project",
+        "Analysis leans on Minds' own native market/campaign/performance capability",
+        "Harness feeds in what's LaunchMinds-specific: enterprise materials, habits, team preferences",
     ],
     "The clearest place you'll see what your platform makes possible.",
     "Stage three is our next milestone, and it's the part I think matters most for this room. We're building "
-    "a per-project workspace where multiple Minds instances coordinate with each other — thinking through "
-    "strategy, executing it, reading the results, and adjusting together. We're not locking that into a fixed "
-    "pipeline of roles; the shape of that group adapts to what each campaign actually needs. This is the "
-    "clearest place you'll see what your platform makes possible when we push it toward real multi-agent "
-    "coordination.",
+    "a per-project workspace where multiple Minds instances work together — planning, executing, analyzing, "
+    "adjusting — coordinating in a loop. To be accurate about it: this isn't a fixed pipeline of roles bolted "
+    "together. The shape of that group adapts to what a given project actually needs, not a rigid four-step "
+    "assembly line. One thing worth being precise on: when one of those Minds instances is analyzing market, "
+    "campaign, or performance data, it's leaning on capability Minds already natively provides — we're not "
+    "building a custom analysis engine externally. What we add through Harness is context: the enterprise "
+    "materials, working habits, and team preferences that make that native analysis specific to a brand "
+    "instead of generic. This is the clearest place you'll see what your platform makes possible when we push "
+    "it toward real multi-agent coordination.",
 )
 
 # ---------------------------------------------------------------------------

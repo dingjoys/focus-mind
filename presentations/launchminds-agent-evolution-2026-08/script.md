@@ -7,7 +7,7 @@ Companion file to [`launchminds-deck.pptx`](./launchminds-deck.pptx). Full narra
 Deck title: **LaunchMinds: From Assistant to Autonomous**
 Subtitle: *Built on Minds, from day one*
 
-> **Note on terminology:** "Minds" is our underlying AI/LLM foundation model provider (see `launchminds-business-plan-2026-en.md`, §8.2: "LLM: Minds API"). It is a proper noun throughout this deck, not a generic term. **Harness** is a separate, complementary layer: our own proprietary context/memory system that sits on top of Minds. The deck deliberately keeps these two distinct: Harness = context layer, Minds = model layer.
+> **Note on terminology:** "Minds" is our underlying AI/LLM foundation model provider (see `launchminds-business-plan-2026-en.md`, §8.2: "LLM: Minds API"). It is a proper noun throughout this deck, not a generic term. **Harness** = LaunchMinds-specific memory (enterprise materials, brand working habits, team preferences). **Minds** = reasoning, native context/memory, and native market/campaign/performance analysis. Not two stacked layers — Harness adds the one layer that's ours, on top of what Minds already natively provides. (Confirmed with the dev team 2026-08-13 — Minds already contains part of what we were calling "Harness," so the earlier "context layer / model layer" split has been retired.)
 
 ---
 
@@ -36,17 +36,16 @@ Subtitle: *Built on Minds, from day one*
 
 ---
 
-## Slide 3 — Positioning: Harness + Minds
+## Slide 3 — What Minds Gives Us, What Harness Adds
 
 **On slide:**
-- LaunchMinds = Harness (context layer) + Minds (model layer)
-- Harness: our proprietary enterprise context and memory
-- Minds: the reasoning engine underneath
+- Minds natively brings reasoning, its own context/memory, and market/campaign/performance analysis
+- We didn't rebuild what Minds already does well
+- Harness adds one distinct layer: enterprise materials, a brand's working habits, team preferences — memory that's LaunchMinds-specific, not generic to Minds
 - Core line: *"LaunchMinds is an AI-native, end-to-end brand marketing platform that leverages Harness to build proprietary enterprise contexts, automating the entire lifecycle from campaign design and multi-platform deployment to resource orchestration."*
-- Minds-driven, not just Minds-adjacent
 
 **Narration:**
-> [read core line]. Two things are doing the work here, and they're worth separating for this room. Harness is our layer — the proprietary context and memory that make a plan actually understand a specific brand, a specific market, a specific history of what's worked before. Minds is what Harness runs on — the model layer, the actual reasoning underneath every plan we generate. Harness without Minds is just a database. Minds without Harness is generic. Together, that's what makes this Minds-driven, not just Minds-adjacent.
+> [read core line]. It's worth being precise about what that means, especially for this room — because we didn't build Harness to replace anything Minds already does well. Minds itself already brings real reasoning and its own context and memory capability, and it natively handles the market, campaign, and performance analysis that powers a lot of what LaunchMinds does. We didn't rebuild any of that. What Harness adds is narrower and more specific: it's where we store the things that are genuinely ours — a brand's enterprise materials, its working habits, a team's preferences and tendencies. That's memory Minds has no way to have on its own, because it's ours, not generic. So this isn't two clean stacked layers, reasoning here, memory there — it's Minds doing what Minds already does natively, and Harness adding exactly the one layer that's LaunchMinds-specific on top.
 
 ---
 
@@ -92,12 +91,12 @@ Subtitle: *Built on Minds, from day one*
 
 **On slide:**
 - In coding: long-running, autonomous, self-checking
-- Per-project workspace: multiple Minds instances coordinating
-- No fixed pipeline of roles — the group's shape adapts to what the campaign needs
-- Where we push toward real multi-agent coordination on your platform
+- Multiple Minds instances working together — plan, execute, analyze, adjust
+- No fixed pipeline — the group's shape adapts to the project
+- Analysis leans on Minds' own native market/campaign/performance capability; Harness feeds in what's LaunchMinds-specific
 
 **Narration:**
-> Stage three is our next milestone, and it's the part I think matters most for this room. We're building a per-project workspace where multiple Minds instances coordinate with each other — thinking through strategy, executing it, reading the results, and adjusting together. We're not locking that into a fixed pipeline of roles; the shape of that group adapts to what each campaign actually needs. This is the clearest place you'll see what your platform makes possible when we push it toward real multi-agent coordination.
+> Stage three is our next milestone, and it's the part I think matters most for this room. We're building a per-project workspace where multiple Minds instances work together — planning, executing, analyzing, adjusting — coordinating in a loop. To be accurate about it: this isn't a fixed pipeline of roles bolted together. The shape of that group adapts to what a given project actually needs, not a rigid four-step assembly line. One thing worth being precise on: when one of those Minds instances is analyzing market, campaign, or performance data, it's leaning on capability Minds already natively provides — we're not building a custom analysis engine externally. What we add through Harness is context: the enterprise materials, working habits, and team preferences that make that native analysis specific to a brand instead of generic. This is the clearest place you'll see what your platform makes possible when we push it toward real multi-agent coordination.
 
 ---
 
@@ -114,4 +113,4 @@ Subtitle: *Built on Minds, from day one*
 
 ---
 
-*Estimated run time: ~4.5 minutes at a natural speaking pace (~150 wpm) — 8 slides, 7 numbered content slides. Revised 2026-08-13 to foreground Minds as the underlying model platform and reframe the talk for an audience of Minds and Minds-community developers, per user direction. Title kept as "From Assistant to Autonomous" per user preference. Stage 3 no longer prescribes a fixed plan/execute/analyze/adjust role split — the multi-Minds group's shape is described as adaptive, not fixed. Grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) (§8.2 confirms Minds as the primary LLM) and the team's actual build progress (Stages 1–2 built and live, Stage 3 in progress).*
+*Estimated run time: ~4.5 minutes at a natural speaking pace (~150 wpm) — 8 slides, 7 numbered content slides. Revised 2026-08-13 to foreground Minds as the underlying model platform and reframe the talk for an audience of Minds and Minds-community developers, per user direction. Title kept as "From Assistant to Autonomous" per user preference. Stage 3 no longer prescribes a fixed plan/execute/analyze/adjust role split — the multi-Minds group's shape is described as adaptive, not fixed. Slides 3 and 7 revised again 2026-08-13 after re-confirming the Harness/Minds architecture with the dev team: Minds already natively provides reasoning, its own context/memory, and market/campaign/performance analysis; Harness adds only the LaunchMinds-specific layer (enterprise materials, brand habits, team preferences) on top — no longer framed as two clean stacked layers. Grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) (§8.2 confirms Minds as the primary LLM) and the team's actual build progress (Stages 1–2 built and live, Stage 3 in progress).*
