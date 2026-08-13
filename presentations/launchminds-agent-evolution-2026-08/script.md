@@ -19,7 +19,7 @@ Subtitle: *Built on Minds, from day one*
 - A partnership story, not just a product demo
 
 **Narration:**
-> Good [morning/afternoon] — today I want to walk you through how LaunchMinds is evolving, from an assistant to something increasingly autonomous, and what that's been like to build on Minds. Our name isn't an accident: Launch, plus Minds. We picked it because Minds is the foundation everything we do stands on — the same role Claude or GPT-4 plays for other companies, Minds plays for us. What you'll see today is proof of what that foundation makes possible, and where we want to take it next, together.
+> Good [morning/afternoon] — today I want to walk you through how LaunchMinds is evolving, from an assistant to something increasingly autonomous, and what that's been like to build on Minds. Our name isn't an accident: Launch, plus Minds. We picked it because Minds is the foundation everything we do stands on. What you'll see today is proof of what that foundation makes possible, and where we want to take it next, together.
 
 ---
 
