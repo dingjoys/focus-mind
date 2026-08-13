@@ -143,9 +143,9 @@ add_rect(s, Inches(0), Inches(0), Inches(0.14), SLIDE_H, ACCENT2)
 add_text(s, Inches(0.9), Inches(1.85), Inches(11), Inches(0.5),
          "LAUNCHMINDS", size=20, color=ACCENT2, bold=True)
 add_text(s, Inches(0.85), Inches(2.3), Inches(11.5), Inches(1.9),
-         "Built on Minds,\nFrom Day One", size=54, color=TEXT_MAIN, bold=True, line_spacing=1.05)
+         "From Assistant\nto Autonomous", size=54, color=TEXT_MAIN, bold=True, line_spacing=1.05)
 add_text(s, Inches(0.9), Inches(4.3), Inches(10.5), Inches(0.6),
-         "Powered by Minds, built with Harness.",
+         "Built on Minds, from day one.",
          size=19, color=TEXT_DIM, italic=True)
 add_bullets(s, Inches(0.9), Inches(5.1), Inches(10.8), Inches(1.8), [
     "AI-native, end-to-end brand marketing platform",
@@ -153,11 +153,12 @@ add_bullets(s, Inches(0.9), Inches(5.1), Inches(10.8), Inches(1.8), [
     "A partnership story, not just a product demo",
 ], size=15, color=TEXT_DIM, space_after=8)
 add_footer(s, "LaunchMinds · 2026")
-set_notes(s, "Good [morning/afternoon] — I'm here to show you what we've built on top of Minds. Our name isn't "
-             "an accident: Launch, plus Minds. We picked it because Minds is the foundation everything we do "
-             "stands on — the same role Claude or GPT-4 plays for other companies, Minds plays for us. What "
-             "you'll see today is proof of what that foundation makes possible, and where we want to take it "
-             "next, together.")
+set_notes(s, "Good [morning/afternoon] — today I want to walk you through how LaunchMinds is evolving, from "
+             "an assistant to something increasingly autonomous, and what that's been like to build on Minds. "
+             "Our name isn't an accident: Launch, plus Minds. We picked it because Minds is the foundation "
+             "everything we do stands on — the same role Claude or GPT-4 plays for other companies, Minds "
+             "plays for us. What you'll see today is proof of what that foundation makes possible, and where "
+             "we want to take it next, together.")
 
 # ---------------------------------------------------------------------------
 # Slide 2 — The Problem
