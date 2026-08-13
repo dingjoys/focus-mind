@@ -1,127 +1,132 @@
-# LaunchMinds: From Assistant to Autonomous
+# LaunchMinds: Built on Minds, From Day One
 
-**A ~5-minute presentation on LaunchMinds' AI-agent evolution — where we've built, and where we're headed next.**
+**A ~5-minute presentation for the Minds team and Minds community developers — what LaunchMinds has built on top of Minds, and where the partnership goes next.**
 
 Companion file to [`launchminds-deck.pptx`](./launchminds-deck.pptx). Full narration is also embedded as speaker notes on each slide in the PPTX.
 
-Deck title: **LaunchMinds: From Assistant to Autonomous**
-Subtitle: *How we're teaching AI to run the entire brand campaign lifecycle*
+Deck title: **LaunchMinds: Built on Minds, From Day One**
+Subtitle: *Powered by Minds, built with Harness*
+
+> **Note on terminology:** "Minds" is our underlying AI/LLM foundation model provider — it plays the same role for LaunchMinds that Claude or GPT-4 plays for other companies (see `launchminds-business-plan-2026-en.md`, §8.2: "LLM: Minds API"). It is a proper noun throughout this deck, not a generic term. **Harness** is a separate, complementary layer: our own proprietary context/memory system that sits on top of Minds. The deck deliberately keeps these two distinct: Harness = context layer, Minds = model layer.
 
 ---
 
-## Slide 1 — LaunchMinds
+## Slide 1 — Built on Minds, From Day One
 
 **On slide:**
-- AI-native, end-to-end brand marketing platform
-- Not a better tool — AI that figures out the strategy
-- Today: where we are, and where we're going next
+- LaunchMinds — AI-native, end-to-end brand marketing platform
+- Powered by Minds, built with Harness
+- A partnership story, not just a product demo
 
 **Narration:**
-> Thanks everyone. Today I want to walk you through LaunchMinds — not just what it does, but how it's evolving, and where it's headed next. Our founding idea has always been simple: don't give brands a better tool to run campaigns — have AI figure out the campaign strategy for them. Everything we've built follows from that one line.
+> Good [morning/afternoon] — I'm here to show you what we've built on top of Minds. Our name isn't an accident: Launch, plus Minds. We picked it because Minds is the foundation everything we do stands on — the same role Claude or GPT-4 plays for other companies, Minds plays for us. What you'll see today is proof of what that foundation makes possible, and where we want to take it next, together.
 
 ---
 
 ## Slide 2 — The Problem
 
 **On slide:**
-- Campaign marketing today is fragmented across tools
-- Strategy is manual, slow, and inconsistent
-- Execution and analysis live in separate silos
-- No real feedback loop back into the next campaign
+- One tool for campaign design, another for deployment, a spreadsheet for the rest
+- Campaign design, deployment, resource orchestration — all disconnected
+- It doesn't scale, and it doesn't get smarter over time
+- The fix isn't another point tool — it's a system that reasons across the whole lifecycle
 
 **Narration:**
-> Anyone who's run a brand campaign knows the pain. You're juggling five tools to plan it, another few to launch it across Twitter, Discord, Telegram, on-chain — and then performance data sits in a spreadsheet nobody revisits. There's no loop. Every campaign starts from scratch. That's the gap we built LaunchMinds to close.
+> Brand marketing today is stitched together by hand — one tool for campaign design, another for deployment, a spreadsheet for resource orchestration, and a person holding it all in their head. That doesn't scale, and it doesn't get smarter over time. We don't think the fix is another point tool. It's a system that reasons across the entire lifecycle — and that requires real intelligence at the core, not automation scripts with an AI label on them.
 
 ---
 
-## Slide 3 — Our Positioning
+## Slide 3 — Positioning: Harness + Minds
 
 **On slide:**
-> "LaunchMinds is an AI-native, end-to-end brand marketing platform that leverages Harness to build proprietary enterprise contexts, automating the entire lifecycle from campaign design and multi-platform deployment to resource orchestration."
-- Transforms marketing needs into structured, actionable workflows
-- Drives scalable user growth and brand impact
+- LaunchMinds = Harness (context layer) + Minds (model layer)
+- Harness: our proprietary enterprise context and memory
+- Minds: the reasoning engine underneath
+- Core line: *"LaunchMinds is an AI-native, end-to-end brand marketing platform that leverages Harness to build proprietary enterprise contexts, automating the entire lifecycle from campaign design and multi-platform deployment to resource orchestration."*
+- Minds-driven, not just Minds-adjacent
 
 **Narration:**
-> Here's how we describe ourselves today: LaunchMinds is an AI-native, end-to-end brand marketing platform that leverages Harness to build proprietary enterprise contexts — automating the entire lifecycle from campaign design and multi-platform deployment to resource orchestration. In plain terms: we turn a messy marketing problem into a structured, actionable workflow, and that workflow is what drives scalable growth. Harness is the core of that — it's how we build a persistent, proprietary understanding of a brand, and everything downstream runs on top of it.
+> [read core line]. Two things are doing the work here, and they're worth separating for this room. Harness is our layer — the proprietary context and memory that make a plan actually understand a specific brand, a specific market, a specific history of what's worked before. Minds is what Harness runs on — the model layer, the actual reasoning underneath every plan we generate. Harness without Minds is just a database. Minds without Harness is generic. Together, that's what makes this Minds-driven, not just Minds-adjacent.
 
 ---
 
-## Slide 4 — A Familiar Pattern
+## Slide 4 — How Agents Evolve
 
 **On slide:**
-- AI-assisted coding has evolved in three recognizable stages
-- Assisted completion → Single-session execution → Agent mode
-- LaunchMinds is walking the exact same path
-- We're not guessing at the roadmap — we're following a proven curve
+- Assisted completion → single-session execution → agent mode
+- The same arc coding tools went through
+- We're climbing this ladder, stage by stage, natively on Minds
 
 **Narration:**
-> To explain where LaunchMinds is headed, I want to borrow an analogy from something we all live in daily: how AI-assisted coding has evolved. It went through three distinct stages — and LaunchMinds is climbing that same ladder, one rung behind but on the same trajectory. Let's walk through it.
+> If you've watched how coding assistants evolved, you've seen this arc: first, assisted completion — suggestions, not action. Then single-session execution — an agent that completes a full task in one sitting, with a human watching. Then true agent mode — long-running, autonomous, checking its own work. We're building LaunchMinds through that same three-stage arc, applied to brand marketing instead of code. And because we built it Minds-native from the start, each stage is a Minds workflow — not a script with a model bolted on.
 
 ---
 
 ## Slide 5 — Stage 1: Assisted Completion *(status: DONE)*
 
 **On slide:**
-- Coding: inline autocomplete — early Copilot, human drives, AI suggests fragments
-- LaunchMinds: AI helped write campaign copy and task descriptions
-- Human still designed and assembled the whole campaign
-- This was our starting point — already behind us
+- In coding: inline suggestions, not action — human reviews every one
+- Minds-assisted campaign drafting: proposes structure, drafts copy
+- Pulls in context Harness has already stored
+- Human in the loop at every step
 
 **Narration:**
-> Stage one in coding was inline completion — tools like early Copilot suggesting the next few lines while a human still drove the whole thing. That was LaunchMinds' starting point too. Our AI helped generate campaign content — task descriptions, narrative copy — but a person still designed the strategy and assembled every piece by hand. Useful, but narrow.
+> Stage one is done and live. This is assisted completion — Minds helping a human draft a campaign: proposing structure, pulling in context Harness has stored, drafting copy. The human stays in the loop at every step. It's the smallest, safest version of Minds-driven work, and it's already saving our team real hours today.
 
 ---
 
 ## Slide 6 — Stage 2: Single-Session Execution *(status: TODAY)*
 
 **On slide:**
-- Coding: one LLM session takes a full brief and executes it end-to-end
-- LaunchMinds today: one session handles registration, strategy, AND deployment
-- Powered by our internal skill system — encodes the full campaign schema
-- Brief in, live campaign out, in one pass
+- In coding: full task, one sitting, human watching
+- One session, one Mind: registration + planning + deployment, no handoffs
+- Runs on our internal skill system — structured capabilities handed to Minds so it can act, not just suggest
+- Live in production today
 
 **Narration:**
-> Stage two in coding is where a single session can take a full task description and just execute it, start to finish, in one sitting. That's exactly where LaunchMinds is right now. Today, one session handles project registration, campaign strategy planning, and deployment to the platform — all in one pass. It's powered by our internal skill system, which encodes the entire campaign schema and workflow, so we go from a brief to a live campaign without switching tools or people. This is shipped. This is real, working today.
+> Stage two is what's running in production right now. One session, one Mind, handling registration, planning, and deployment end to end — no handoffs between tools. It runs through our internal skill system, which is essentially a set of structured capabilities we hand to Minds so it can act, not just suggest. This is the first stage where Minds does real work autonomously within a session, and it's in daily use today.
 
 ---
 
 ## Slide 7 — Stage 3: Agent Mode *(status: NEXT MILESTONE)*
 
 **On slide:**
-- Coding: persistent, multi-agent systems — agents with roles, coordinating over time
-- LaunchMinds next: a persistent workspace per project/brand
-- Seeded by Harness — multiple "Minds" divide the labor
-- Plan → Execute → Analyze → Adjust — a continuous, self-improving loop
+- In coding: long-running, autonomous, self-checking
+- Per-project workspace: one Mind plans, one executes, one analyzes, one adjusts
+- Not roles loosely called "Minds" — literal Minds models, coordinating in a loop
+- Where we push toward real multi-agent coordination on your platform
 
 **Narration:**
-> Stage three in coding is agent mode — not one bounded session, but a persistent system of multiple agents, each with a role, coordinating over time. That's the milestone we're now chasing. We're building a persistent workspace for every project, seeded by Harness — our proprietary brand context. Inside it, multiple "Minds" divide the labor: one plans the marketing strategy, one executes and deploys it, one analyzes how the campaign actually performed, and one feeds that analysis back into the next round's plan. Not one-shot — a continuous, self-improving loop.
+> Stage three is our next milestone, and it's the part I think matters most for this room. We're building a per-project workspace where multiple Minds instances run side by side — one planning, one executing, one analyzing results, one adjusting the plan based on what it sees — coordinating with each other in a continuous loop. These aren't roles we're loosely calling "Minds." They're literal Minds models, each doing a distinct job, talking to each other. This is the clearest place you'll see what your platform makes possible when we push it toward real multi-agent coordination.
+
+> ⚠️ **Flag before presenting:** this is the strongest technical claim in the deck ("literal Minds models," not a loose label). Worth confirming this matches how the Stage 3 multi-agent workspace is actually architected before saying it out loud to Minds' own team.
 
 ---
 
-## Slide 8 — Raising the Bar on Analysis
+## Slide 8 — One Open Thread: Sapien
 
 **On slide:**
-- The "analyze" Mind is only as good as its rigor
-- We're exploring a collaboration with Sapien
-- Goal: combine forces for the most professional, rigorous marketing analysis possible
-- Early-stage, active conversation — not yet finalized
+- Early conversations, not finalized
+- Potential collaboration on the "analyze" step of the Stage 3 loop
+- Evaluating whether their approach complements what Minds already gives us
+- Full transparency: exploration, not a commitment
 
 **Narration:**
-> One piece of that loop deserves special mention: the analysis Mind. Marketing attribution is hard to get right, and we want it to be genuinely rigorous, not just a dashboard. So we're currently exploring a collaboration with Sapien, with the goal of combining forces to deliver the most professional, rigorous marketing analysis in the space. It's early — an active conversation, not a done deal — but it's a direction we're excited about.
+> One open thread, for full transparency: we're in early conversations with Sapien about the analyze step in that stage-three loop — whether their approach complements what Minds already gives us. To be clear, this is exploration, not a commitment. We want to be upfront about what's decided and what's still being evaluated, because that honesty is part of how we want to build this relationship with you.
 
 ---
 
-## Slide 9 — Where This Is Going
+## Slide 9 — Built on Minds, With Minds' Community
 
 **On slide:**
-- Stages 1 and 2: built and shipped
-- Stage 3: our next milestone, in motion
-- Structured, actionable workflows → scalable growth, real brand impact
-- We're not describing a roadmap slide — we're describing momentum
+- Stage 1 & 2: shipped, in daily use
+- Stage 3: next milestone, in motion
+- Not an integration bolted on after the fact — built on Minds from day one
+- "What gets built on top of a platform is the best answer a platform can have."
 
 **Narration:**
-> So to recap: we've already lived through the first two stages ourselves — content assistance, then full single-session execution, which is running today. The next milestone we're chasing is agent mode: persistent, per-brand workspaces where multiple Minds plan, execute, analyze, and adjust in a continuous loop. That's how we turn complex marketing needs into structured, actionable workflows — and that's what drives scalable user growth and real brand impact. We've built the first two stages. Now we're building the third. Thank you.
+> So: two stages shipped and running, one stage actively in motion, built on Minds from day one — not as an integration bolted on after the fact, but as the foundation. We're showing you this because we think it's a good answer to the question every platform has to answer eventually: what gets built on top of us? We'd like to keep building that answer together — with your platform, and with your community. Thanks for the time.
 
 ---
 
-*Estimated run time: ~5 minutes at a natural speaking pace (~150 wpm). Script and deck generated 2026-08-13, grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) and updated to reflect the current Harness-based positioning and the team's actual build progress (Stages 1–2 shipped, Stage 3 in progress).*
+*Estimated run time: ~5 minutes at a natural speaking pace (~150 wpm). Revised 2026-08-13 to foreground Minds as the underlying model platform (analogous to Claude/GPT for other companies) and reframe the talk for an audience of Minds and Minds-community developers, per user direction. Grounded in [`launchminds-business-plan-2026-en.md`](../../launchminds-business-plan-2026-en.md) (§8.2 confirms Minds as the primary LLM) and the team's actual build progress (Stages 1–2 shipped, Stage 3 in progress).*
