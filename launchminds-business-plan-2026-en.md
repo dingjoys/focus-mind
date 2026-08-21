@@ -32,10 +32,10 @@ The platform's core differentiator: **AI Agents deeply learn a brand's assets** 
 
 | Metric | Target |
 |------|------|
-| Paying brand customers | 200+ |
+| Paying brand customers | 100+ |
 | Campaigns run on platform | 5,000+ |
-| Campaign participants | 2,000,000+ |
-| ARR | $3,000,000 |
+| Campaign participants | 500,000+ |
+| ARR | $1,500,000 |
 
 ---
 
